@@ -4,7 +4,7 @@
   <input type="text" placeholder=" first name" id="firstName">
   <input type="text" placeholder=" last name" id="lastName">
   <input type="text" placeholder=" nickname" id="nickname">
-  <input type="text" placeholder=" image url" id="imageURL">
+  <input type="text" placeholder=" image url" id="image">
   <button>Add Another Friend!</button>
 
 </form>
@@ -13,6 +13,8 @@
   {{#each person}}
   <li data-id="{{ _id }}">
       <a href="#friend/{{ _id }}">{{ image }}</a>
+      <a href="#friend/{{ _id }}">{{firstName}} {{lastName}}</a>
+      aka "{{nickname}}"
 
 
 

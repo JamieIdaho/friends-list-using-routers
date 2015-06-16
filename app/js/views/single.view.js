@@ -18,7 +18,7 @@
     },
 
     render: function() {
-      var singleFriend = this.collection.get(this.singleId);
+      var singleFriend = this.collection.get(this.singleID);
       this.$el.html(this.template(singleFriend.toJSON()));
     }
 

@@ -33,12 +33,15 @@
           nickname = form.find('#nickname').val(),
           image = form.find('#imageURL').val();
 
+
+
       var f = new app.Models.Friend ({
         firstName: firstName,
         lastName: lastName,
         nickname: nickname,
         image: image
       });
+
 
 
       this.collection.add(f).save().success( function () {
