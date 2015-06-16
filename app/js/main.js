@@ -1,5 +1,15 @@
-console.log('This is cool!');
+;(function (){
 
-$('.container').html(template.example({
-  value: 'Hello, World!!'
-}));
+  'use strict';
+
+  var allFriends = new app.Collections.Friends();
+
+  allFriends.fetch().done(function () {
+
+    new app.Routers.MainRouter({
+    collection: allFriends
+  });
+    Backbone.history.start();
+  });
+
+}());
