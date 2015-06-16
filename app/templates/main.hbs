@@ -1,0 +1,22 @@
+<h2 class="h2Title">Jamie Has Friends!</h2>
+
+<form id="addFriend">
+  <input type="text" placeholder=" first name" id="firstName">
+  <input type="text" placeholder=" last name" id="lastName">
+  <input type="text" placeholder=" nickname" id="nickname">
+  <input type="text" placeholder=" image url" id="imageURL">
+  <button>Add Another Friend!</button>
+
+</form>
+
+<ul>
+  {{#each person}}
+  <li data-id="{{ _id }}">
+      <a href="#friend/{{ _id }}">{{ image }}</a>
+
+
+
+  </li>
+
+{{/each}}
+</ul>
