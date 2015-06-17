@@ -14,9 +14,9 @@
   {{#each person}}
   <li data-id="{{ _id }}">
 
-      <a href="#friend/{{ _id }}"><img src="{{ image }}" width="auto" height="300px"></a>
+      <a href="#friend/{{ _id }}"><img src="{{ image }}"></a>
       <a href="#friend/{{ _id }}">{{firstName}} {{lastName}}</a>
-      aka "{{nickname}}"
+      aka <a href="#" class="nickname">"{{nickname}}"</a>
 
 
 

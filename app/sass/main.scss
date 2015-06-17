@@ -1,8 +1,18 @@
+$font:'Merriweather', serif;
+
 .wrapper {
   width: 75%;
   margin: 50px auto;
+  font-family: $font;
 }
 
 ul {
   list-style: none;
+  margin-left: 0;
 }
+
+.nickname {
+  color: black;
+
+}
+

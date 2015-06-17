@@ -1,6 +1,11 @@
 .wrapper {
   width: 75%;
-  margin: 50px auto; }
+  margin: 50px auto;
+  font-family: "Merriweather", serif; }
 
 ul {
-  list-style: none; }
+  list-style: none;
+  margin-left: 0; }
+
+.nickname {
+  color: black; }

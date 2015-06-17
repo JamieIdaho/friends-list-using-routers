@@ -6,7 +6,7 @@
 
     model: app.Models.Friend,
 
-    comparator: 'name',
+    comparator: 'lastName',
 
     url: app.rootURL
 

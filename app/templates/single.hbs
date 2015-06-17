@@ -1,6 +1,6 @@
 <div class="personView">
   <h3 class="personName"> {{ firstName }} {{ lastName }} aka "{{ nickname }}"</h3>
-  <img src="{{ image }}" width="auto" height="500px">
+  <div class="imageDiv" width="auto" height="300px"><img src="{{ image }}"></div>
   <p>{{ notes }}</p>
 
   <button id="delete" class="alert" data-id="{{ _id }}">Delete</button>

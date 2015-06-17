@@ -34,7 +34,7 @@
       var whichOne = this.collection.get(modelID);
 
       whichOne.destroy().success( function () {
-        console.log('Item deleted');
+        $('.container').html('Deleted!');
       });
     }
 
