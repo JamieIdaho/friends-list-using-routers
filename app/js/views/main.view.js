@@ -31,7 +31,8 @@
           firstName = form.find('#firstName').val(),
           lastName = form.find('#lastName').val(),
           nickname = form.find('#nickname').val(),
-          image = form.find('#imageURL').val();
+          notes = form.find('#notes').val(),
+          image = form.find('#image').val();
 
 
 
@@ -39,6 +40,7 @@
         firstName: firstName,
         lastName: lastName,
         nickname: nickname,
+        notes: notes,
         image: image
       });
 
