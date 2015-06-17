@@ -1,6 +1,6 @@
 ## Welcome to My Repo
 
-> I am your Readme.md file, you should probably update me.
+This was a simple overnight assignment to practice use of Backbone's models, collections, views and routers. I created a friends contact list that routes the user to a new view once a contact is clicked on.
 
 
 ## Usage
